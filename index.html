@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 2.0.10">
-<title>Numerate Web: mathematical formulas and computations for RDF</title>
+<title>Numerate Web: Mathematical formulas and computations for RDF</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
 /* Asciidoctor default stylesheet | MIT License | https://asciidoctor.org */
@@ -439,15 +439,53 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </head>
 <body class="article toc2 toc-left">
 <div id="header">
-<h1>Numerate Web: mathematical formulas and computations for RDF</h1>
+<h1>Numerate Web: Mathematical formulas and computations for RDF</h1>
 <div id="toc" class="toc2">
 <div id="toctitle">Table of Contents</div>
 <ul class="sectlevel1">
+<li><a href="#related-standards">Related standards</a></li>
 <li><a href="#specification">Specification</a></li>
+<li><a href="#implementations">Implementations</a></li>
 </ul>
 </div>
 </div>
 <div id="content">
+<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>Ontologies and related Semantic Web technologies are applied in many areas where
+mathematical relationships are essential to the domain knowledge.
+However, unlike ontologies and logical rule languages, mathematical expressions
+and calculation rules are not an intrinsic part of the linked data
+representation. Therefore, additional mapping processes between semantic domain
+models and the programs executing the mathematical computations are usually
+required.</p>
+</div>
+<div class="paragraph">
+<p>The Numerate Web is an approach to representing mathematical models with RDF,
+linking them to RDF resources and properties, running computations, and finally
+also making the results available as part of the RDF representation.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="related-standards"><a class="anchor" href="#related-standards"></a>Related standards</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://www.w3.org/TR/rdf11-concepts/">Resource Description Framework (RDF)</a></p>
+</li>
+<li>
+<p><a href="https://openmath.org/standard/">OpenMath standard</a></p>
+</li>
+<li>
+<p><a href="https://openmath.org/om-rdf/">proposed OpenMath-RDF serialization</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
 <div class="sect1">
 <h2 id="specification"><a class="anchor" href="#specification"></a>Specification</h2>
 <div class="sectionbody">
@@ -456,10 +494,22 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 </div>
+<div class="sect1">
+<h2 id="implementations"><a class="anchor" href="#implementations"></a>Implementations</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p>a <strong>Java</strong> implementation is available at <a href="https://github.com/numerateweb/numerateweb" class="bare">https://github.com/numerateweb/numerateweb</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2022-06-07 11:40:42 UTC
+Last updated 2022-06-07 11:48:33 UTC
 </div>
 </div>
 </body>
