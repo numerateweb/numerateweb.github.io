@@ -46,7 +46,7 @@
                     -->
                     <!-- Attributes common to all output formats -->
                     <attributes>
-                        <endpoint-url>http://komma.enilink.net/docs/</endpoint-url>
+                        <endpoint-url>http://numerateweb.org/</endpoint-url>
                         <sourcedir>${project.build.sourceDirectory}</sourcedir>
                         <project-version>${project.version}</project-version>
                     </attributes>
@@ -125,10 +125,6 @@
                     </execution>
                 </executions>
             </plugin>
-            <!--
-            NOTE: Use the maven-resources-plugin if there are assets outside the AsciiDoc source folder
-                  that need to be copied to the generated-docs. The Maven plugin automatically copies
-                  non-AsciiDoc files in the AsciiDoc source folder to generated-docs.
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-resources-plugin</artifactId>
@@ -143,10 +139,9 @@
                         <configuration>
                             <resources>
                                 <resource>
-                                    <directory>src/docs/resources</directory>
+                                    <directory>.</directory>
                                     <includes>
-                                        <include>**/*.jpg</include>
-                                        <include>**/*.png</include>
+                                        <include>CNAME</include>
                                     </includes>
                                 </resource>
                             </resources>
@@ -155,7 +150,6 @@
                     </execution>
                 </executions>
             </plugin>
-            -->
         </plugins>
     </build>
 </project>
