@@ -1,0 +1,7 @@
+:imagesdir: ./images
+
+= Numerate Web: mathematical formulas and computations for RDF
+
+== Specification
+
+A work in progress document can be found at https://numerateweb.org/specification/

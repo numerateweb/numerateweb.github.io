@@ -1,0 +1,9 @@
+= Welcome to the Numerate Web specification repository.
+
+This repository contains documents and examples regarding the encoding of mathematical formulas with RDF and the execution of computations based on RDF data.
+
+*The specification is currently work in progress.*
+
+This repository is structured as follows:
+
+docs/:: Contains the AsciiDoc sources and images for the specification of Numerate Web concepts.
