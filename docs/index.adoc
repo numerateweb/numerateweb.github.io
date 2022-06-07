@@ -1,8 +1,28 @@
 :imagesdir: ./images
 :!toc:
 
-= Numerate Web: mathematical formulas and computations for RDF
+= Numerate Web: Mathematical formulas and computations for RDF
+
+Ontologies and related Semantic Web technologies are applied in many areas where
+mathematical relationships are essential to the domain knowledge.
+However, unlike ontologies and logical rule languages, mathematical expressions
+and calculation rules are not an intrinsic part of the linked data
+representation. Therefore, additional mapping processes between semantic domain
+models and the programs executing the mathematical computations are usually
+required.
+
+The Numerate Web is an approach to representing mathematical models with RDF,
+linking them to RDF resources and properties, running computations, and finally
+also making the results available as part of the RDF representation.
+
+== Related standards
+* https://www.w3.org/TR/rdf11-concepts/[Resource Description Framework (RDF)]
+* https://openmath.org/standard/[OpenMath standard]
+* https://openmath.org/om-rdf/[proposed OpenMath-RDF serialization]
 
 == Specification
 
 A work in progress document can be found at https://numerateweb.org/specification/
+
+== Implementations
+* a *Java* implementation is available at https://github.com/numerateweb/numerateweb
