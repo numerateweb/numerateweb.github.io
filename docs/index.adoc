@@ -1,4 +1,5 @@
 :imagesdir: ./images
+:!toc:
 
 = Numerate Web: mathematical formulas and computations for RDF
 
