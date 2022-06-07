@@ -113,7 +113,7 @@
                             <attributes>
                                 <source-highlighter>coderay</source-highlighter>
                                 <imagesdir>./images</imagesdir>
-                                <toc>left</toc>
+                                <toc>none</toc>
                                 <icons>font</icons>
                                 <sectanchors>true</sectanchors>
                                 <!-- set the idprefix to blank -->
